@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "OPPOSans";
+    src: url("https://dsfs.oppo.com/oppo/shop-pc-v2/main/fonts/OPPOSans-Medium.a8b67f2.woff");
+}
+body,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,html,img,input,legend,li,ol,p,ul {
+    margin: 0;
+    padding: 0;
+    font-family: "OPPOSans";
+   
+}
+
+button,fieldset,img,input {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    outline-style: none
+}
+
+li,ol,ul {
+    list-style: none
+}
+
+input,select {
+    vertical-align: middle
+}
+
+textarea {
+    resize: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+table {
+    border-collapse: collapse
+}
+
+a {
+    text-decoration: none
+}
+
+body,html {
+    width:100%;
+    height: 100%;
+    /* background: url(../assets/bg.png) no-repeat; */
+    background: #f7f7fa;
+    background-size: 100% auto;
+    /* cursor: url(../font/joy.cur),pointer; */
+    /* cursor: url("https://cdn.heanny.cn/images/mouse/Arrow.cur"), auto; */
+}
+
+body::-webkit-scrollbar {width: 8px;height:8px;border-radius: 4px;opacity: 0.6;}
+
+body::-webkit-scrollbar-thumb:vertical{border-right:4px solid rgba(255,255,255,0);height:50px;background-color:#c9c9c9;background-clip:content-box}
+
+.clearfix:after,.clearfix:before {
+    content: "";
+    display: table
+}
+
+.clearfix {
+    *zoom:1}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+    font-size: 1em
+}
+
+h1{
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
+    padding-left:15px;
+    margin-bottom:10px;
+    position: relative;
+}
+h1 i{
+    display: inline-block;
+    width: 3px;
+    height: 18px;
+    background:#455FE7;
+    position: absolute;
+    top:51%;left: 0;
+    transform: translateY(-50%);
+}
+
+em,i,s {
+    font-style: normal;
+    text-decoration: none
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.ac {
+    text-align: center
+}
+
+.hide {
+    display: none
+}
+
+.f12 {
+    font-size: 12px
+}
+
+.f14 {
+    font-size: 14px
+}
+
+.f16 {
+    font-size: 16px
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+	zoom:1
+}
+.contentCenter{width: 1200px;margin: 0 auto;}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 0.3s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active, 2.1.8 版本以下 */ {
+    opacity: 0;
+}
